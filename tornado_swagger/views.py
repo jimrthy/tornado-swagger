@@ -112,5 +112,3 @@ class SwaggerApiHandler(tornado.web.RequestHandler):
                                       if hasattr(member, 'rest_api')]
                         yield spec_path, spec, operations
                         break
-
-
